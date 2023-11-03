@@ -1,4 +1,4 @@
-/* Base styles for the navigation menu */
+
 #navbar {
     position: fixed;
     top: 0;
@@ -26,12 +26,12 @@
 }
 
 #navbar .logo {
-    margin-left: 20px; /* Adjust the margin as needed */
-    transition: opacity 0.3s; /* Add opacity transition for the logo */
+    margin-left: 20px; 
+    transition: opacity 0.3s; 
 }
 
 #navbar .logo:hover {
-    opacity: 0.8; /* Reduce opacity on hover */
+    opacity: 0.8; 
 }
 
 #navbar a {
@@ -43,19 +43,19 @@
     transition: color 0.3s;
 }
 
-/* Styles for the navigation menu when scrolled */
+
 .scrolled {
     background-color: #111;
 }
 
-/* Styles for the navigation menu items on hover */
+
 #navbar a:hover {
     background-color: #ff5733;
     color: #000;
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Custom styles for the search bar */
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -78,7 +78,6 @@
     cursor: pointer;
 }
 
-/* Custom styles for the page content */
 body {
     background-color: #111;
     color: #fff;
@@ -86,4 +85,4 @@ body {
     padding: 50px;
 }
 
-/* Add your custom styles for the page content here */
+
